@@ -1,0 +1,12 @@
+表格中名称,数据库中名称,数据类型,是否必须,备注
+卡类型,CardType,0x16进制,是
+类型,Type,0x16进制,是
+子类型,SubType,0x16进制,是
+类别,Classify,int单选,是,0:控制器 1:gLinkII 2:gLinkI 4:GTM子板
+名称,Name,str,是
+型号,Model,str,是
+组别,Ascription,str单选,是
+物料编码,PN,str,否
+描述,Describe,str,否
+槽数,Slot,int,是
+图片路径,ImagePath,str,否
